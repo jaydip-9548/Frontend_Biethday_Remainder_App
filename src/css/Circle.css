@@ -1,0 +1,15 @@
+.myclass{
+  border: 1px solid rgb(187, 187, 187);
+  display: inline-block;
+  border-radius: 50%;
+  position: sticky;
+ top: 85%;
+ left: 91%;
+/* height: 1000px; */
+}
+.myclass img{
+  width: 50px;
+}
+.myclass:hover{
+  cursor: pointer;
+}

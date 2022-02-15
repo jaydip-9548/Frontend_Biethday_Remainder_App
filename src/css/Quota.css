@@ -1,0 +1,37 @@
+.myTable{
+    /* border: 5px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .content{
+      display: inline-block;
+      position: relative;
+      left: 2%;
+    }
+.box{
+  border: 1px solid blue;
+  margin: 5px;
+  padding: 3px;
+  width: 400px;
+  display: inline-block;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px rgb(224, 224, 224);
+}
+.copy{
+  /* border: 1px solid red; */
+}
+.copybtn{
+  position: relative;
+    right: -340px;
+    border-radius: 1px;
+    background-color: rgb(248, 248, 248);
+  }
+  .copybtn:hover{
+    cursor: pointer;
+    background-color: rgb(52, 52, 255);
+    color: white;
+  }.copybtn:active{
+    
+    background-color: rgb(248, 248, 248);
+}

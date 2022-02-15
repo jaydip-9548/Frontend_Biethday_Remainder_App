@@ -1,0 +1,58 @@
+.cont {
+    border: 1px solid black;
+    width: auto;
+    margin-top: 10px;
+    height: auto;
+    display: inline-block;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 5px rgb(192, 192, 192);
+    background-color: rgb(141, 194, 243);
+
+  }
+  .mycont{
+    display: flex;
+    justify-content: center;
+  }
+
+  .container input {
+    padding: 9px;
+  }
+  input[type=date] {
+    width: 300px;
+    border-radius: 10px ;
+    padding: 6px;
+  }
+  input[type=text] {
+    width: 300px;
+    border-radius: 10px ;
+    padding: 6px;
+  
+  }
+  textarea {
+    width: 300px;
+    border-radius: 10px ;
+    padding: 6px;
+  
+  }
+  input[type=text]:focus {
+    border: 0.4px solid blue;
+  }
+  
+  input[type=email] {
+    width: 300px;
+    border-radius: 10px ;
+  }
+
+  .sub {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+  }
+
+  .input {
+    margin: 10px;
+    /* border: 1px solid black; */
+    display: inline-block;
+    padding: 7px;
+  }
